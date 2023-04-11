@@ -1,0 +1,91 @@
+body {
+    background-color: #222;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+#ho__main {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+#ho__title {
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+#ho__title span {
+    color: #f39c12;
+}
+
+#ho__img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+#ho__img-caption {
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 1em;
+}
+
+#tribute-info {
+    margin-top: 2em;
+}
+
+#headline {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 1em;
+}
+
+li {
+    margin-bottom: 0.5em;
+}
+
+blockquote {
+    margin: 1em 0;
+    padding-left: 2em;
+    border-left: 3px solid #f39c12;
+    font-style: italic;
+}
+
+blockquote p {
+    margin-bottom: 0.5em;
+}
+
+blockquote cite {
+    display: block;
+    font-size: 0.8em;
+    margin-top: 1em;
+    text-align: right;
+    color: #f39c12;
+}
+
+#ho__tribute-link {
+    color: #f39c12;
+    text-decoration: none;
+    border-bottom: 1px dotted #f39c12;
+    transition: all 0.3s;
+}
+
+#ho__tribute-link:hover {
+    border-bottom: none;
+    color: #fff;
+    background-color: #f39c12;
+    padding: 0.1em 0.5em;
+    border-radius: 0.2em;
+}
